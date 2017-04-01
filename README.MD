@@ -1,9 +1,9 @@
-# openrex_uboot_v2015_10
-mx6q/dl/s/spl openrex u-boot v2015.10 
+# openrex_uboot_v2017_10
+mx6q/dl/s/spl openrex u-boot v2017.10 
  
 # Download repository
-    git clone https://github.com/FEDEVEL/openrex-uboot-v2015.10.git
-    cd openrex-uboot-v2015.10
+    git clone https://github.com/R16-Rubus/rubus-uboot-v2017.03
+    cd rubus-uboot-v2017.03
  
 # Install cross compiler
     apt-get install gcc-arm-linux-gnueabihf
@@ -14,9 +14,9 @@ mx6q/dl/s/spl openrex u-boot v2015.10
  
 # Build (imx6q)
     make distclean
-    make mx6qopenrex_config
+    make r16qrubus_config
     make
-    cp u-boot.imx /tftp/uboot-mx6qopenrex.imx
+    cp u-boot.imx /tftp/uboot-r16qrubus.imx
  
 # Build (imx6dl)
     TODO

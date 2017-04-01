@@ -16,16 +16,28 @@ include/config/auto.conf: ../include/common.h ../include/linux/kconfig.h \
  ../include/asm-generic/bitops/fls64.h ../include/linux/types.h \
  ../include/linux/posix_types.h ../include/linux/stddef.h \
  ../arch/arm/include/asm/posix_types.h \
+<<<<<<< HEAD
  /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.2.0/include/stdbool.h \
+=======
+ /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.2.0/include/stdbool.h \
+>>>>>>> f38148f2f8278a374346051a0d14ae7981b33128
  ../include/linux/string.h ../arch/arm/include/asm/string.h \
  ../include/linux/linux_string.h ../include/linux/stringify.h \
  ../arch/arm/include/asm/ptrace.h \
  ../arch/arm/include/asm/proc-armv/ptrace.h \
+<<<<<<< HEAD
  /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.2.0/include/stdarg.h \
  ../include/linux/kernel.h ../include/part.h ../include/ide.h \
  ../include/common.h ../include/flash.h ../include/image.h \
  ../include/compiler.h \
  /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.2.0/include/stddef.h \
+=======
+ /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.2.0/include/stdarg.h \
+ ../include/linux/kernel.h ../include/part.h ../include/ide.h \
+ ../include/common.h ../include/flash.h ../include/image.h \
+ ../include/compiler.h \
+ /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.2.0/include/stddef.h \
+>>>>>>> f38148f2f8278a374346051a0d14ae7981b33128
  ../arch/arm/include/asm/byteorder.h \
  ../include/linux/byteorder/little_endian.h \
  ../include/linux/byteorder/swab.h ../include/linux/byteorder/generic.h \
@@ -98,7 +110,11 @@ include/asm/arch/imx-regs.h:
 
 ../arch/arm/include/asm/posix_types.h:
 
+<<<<<<< HEAD
 /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.2.0/include/stdbool.h:
+=======
+/home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.2.0/include/stdbool.h:
+>>>>>>> f38148f2f8278a374346051a0d14ae7981b33128
 
 ../include/linux/string.h:
 
@@ -112,7 +128,11 @@ include/asm/arch/imx-regs.h:
 
 ../arch/arm/include/asm/proc-armv/ptrace.h:
 
+<<<<<<< HEAD
 /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.2.0/include/stdarg.h:
+=======
+/home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.2.0/include/stdarg.h:
+>>>>>>> f38148f2f8278a374346051a0d14ae7981b33128
 
 ../include/linux/kernel.h:
 
@@ -128,7 +148,11 @@ include/asm/arch/imx-regs.h:
 
 ../include/compiler.h:
 
+<<<<<<< HEAD
 /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.2.0/include/stddef.h:
+=======
+/home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/x86_64-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.2.0/include/stddef.h:
+>>>>>>> f38148f2f8278a374346051a0d14ae7981b33128
 
 ../arch/arm/include/asm/byteorder.h:
 

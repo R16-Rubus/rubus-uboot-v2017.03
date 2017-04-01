@@ -85,17 +85,29 @@ config TARGET_MX6SABRESD
 	select SUPPORT_SPL
 	select DM
 	select DM_THERMAL
+<<<<<<< HEAD
+=======
+	
+config TARGET_R16RUBUS
+	bool "r16rubus"
+	select SUPPORT_SPL
+	select DM
+	select DM_THERMAL
+>>>>>>> f38148f2f8278a374346051a0d14ae7981b33128
 
 config TARGET_MX6SLEVK
 	bool "mx6slevk"
 	select SUPPORT_SPL
 
+<<<<<<< HEAD
 config TARGET_MX6OPENREX
     bool "mx6openrex"
     select SUPPORT_SPL
     select DM
     select DM_THERMAL
 
+=======
+>>>>>>> f38148f2f8278a374346051a0d14ae7981b33128
 config TARGET_MX6SXSABRESD
 	bool "mx6sxsabresd"
 	select SUPPORT_SPL
@@ -170,9 +182,15 @@ source "board/embest/mx6boards/Kconfig"
 source "board/freescale/mx6qarm2/Kconfig"
 source "board/freescale/mx6qsabreauto/Kconfig"
 source "board/freescale/mx6sabresd/Kconfig"
+<<<<<<< HEAD
 source "board/fedevel/mx6openrex/Kconfig"
 source "board/freescale/mx6slevk/Kconfig"
 source "board/freescale/mx6sxsabresd/Kconfig"
+=======
+source "board/freescale/mx6slevk/Kconfig"
+source "board/freescale/mx6sxsabresd/Kconfig"
+source "board/rubus/r16rubus/Kconfig"
+>>>>>>> f38148f2f8278a374346051a0d14ae7981b33128
 source "board/freescale/mx6ul_14x14_evk/Kconfig"
 source "board/gateworks/gw_ventana/Kconfig"
 source "board/kosagi/novena/Kconfig"

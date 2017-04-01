@@ -1,5 +1,6 @@
 Archive member included to satisfy reference by file (symbol)
 
+<<<<<<< HEAD
 /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_udivsi3.o)
                               arch/arm/cpu/armv7/built-in.o (__aeabi_uidiv)
 /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_divsi3.o)
@@ -10,6 +11,18 @@ Archive member included to satisfy reference by file (symbol)
                               drivers/mmc/built-in.o (__aeabi_llsl)
 /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_dvmd_lnx.o)
                               /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+=======
+/home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_udivsi3.o)
+                              arch/arm/cpu/armv7/built-in.o (__aeabi_uidiv)
+/home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_divsi3.o)
+                              common/built-in.o (__aeabi_idiv)
+/home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_lshrdi3.o)
+                              fs/built-in.o (__aeabi_llsr)
+/home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_ashldi3.o)
+                              drivers/mmc/built-in.o (__aeabi_llsl)
+/home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_dvmd_lnx.o)
+                              /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+>>>>>>> f38148f2f8278a374346051a0d14ae7981b33128
 
 Discarded input sections
 
@@ -874,6 +887,7 @@ Discarded input sections
                 0x0000000000000000        0x4 arch/arm/lib/eabi_compat.o
  .text.__aeabi_memset
                 0x0000000000000000       0x10 arch/arm/lib/eabi_compat.o
+<<<<<<< HEAD
  .data          0x0000000000000000        0x0 /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_udivsi3.o)
  .bss           0x0000000000000000        0x0 /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_udivsi3.o)
  .data          0x0000000000000000        0x0 /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_divsi3.o)
@@ -884,6 +898,18 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_ashldi3.o)
  .data          0x0000000000000000        0x0 /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_dvmd_lnx.o)
  .bss           0x0000000000000000        0x0 /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_dvmd_lnx.o)
+=======
+ .data          0x0000000000000000        0x0 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_udivsi3.o)
+ .bss           0x0000000000000000        0x0 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_udivsi3.o)
+ .data          0x0000000000000000        0x0 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_divsi3.o)
+ .bss           0x0000000000000000        0x0 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_divsi3.o)
+ .data          0x0000000000000000        0x0 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_lshrdi3.o)
+ .bss           0x0000000000000000        0x0 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_lshrdi3.o)
+ .data          0x0000000000000000        0x0 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_ashldi3.o)
+ .bss           0x0000000000000000        0x0 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_ashldi3.o)
+ .data          0x0000000000000000        0x0 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_dvmd_lnx.o)
+ .bss           0x0000000000000000        0x0 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_dvmd_lnx.o)
+>>>>>>> f38148f2f8278a374346051a0d14ae7981b33128
 
 Memory Configuration
 
@@ -4793,6 +4819,7 @@ Address of section .text set to 0x17800000
                 0x0000000017849784       0x10 test/dm/built-in.o
  .text.raise    0x0000000017849794       0x1c arch/arm/lib/eabi_compat.o
                 0x0000000017849794                raise
+<<<<<<< HEAD
  .text          0x00000000178497b0       0xc8 /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_udivsi3.o)
                 0x00000000178497b0                __udivsi3
                 0x00000000178497b0                __aeabi_uidiv
@@ -4808,6 +4835,23 @@ Address of section .text set to 0x17800000
                 0x0000000017849990                __ashldi3
                 0x0000000017849990                __aeabi_llsl
  .text          0x00000000178499ac       0x10 /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_dvmd_lnx.o)
+=======
+ .text          0x00000000178497b0       0xc8 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_udivsi3.o)
+                0x00000000178497b0                __udivsi3
+                0x00000000178497b0                __aeabi_uidiv
+                0x0000000017849858                __aeabi_uidivmod
+ .text          0x0000000017849878       0xfc /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_divsi3.o)
+                0x0000000017849878                __aeabi_idiv
+                0x0000000017849878                __divsi3
+                0x0000000017849954                __aeabi_idivmod
+ .text          0x0000000017849974       0x1c /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_lshrdi3.o)
+                0x0000000017849974                __aeabi_llsr
+                0x0000000017849974                __lshrdi3
+ .text          0x0000000017849990       0x1c /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_ashldi3.o)
+                0x0000000017849990                __ashldi3
+                0x0000000017849990                __aeabi_llsl
+ .text          0x00000000178499ac       0x10 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_dvmd_lnx.o)
+>>>>>>> f38148f2f8278a374346051a0d14ae7981b33128
                 0x00000000178499ac                __aeabi_ldiv0
                 0x00000000178499ac                __aeabi_idiv0
 
@@ -8812,7 +8856,11 @@ LOAD test/built-in.o
 LOAD test/dm/built-in.o
 END GROUP
 LOAD arch/arm/lib/eabi_compat.o
+<<<<<<< HEAD
 LOAD /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a
+=======
+LOAD /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a
+>>>>>>> f38148f2f8278a374346051a0d14ae7981b33128
 OUTPUT(u-boot elf32-littlearm)
 
 .ARM.attributes
@@ -8876,6 +8924,7 @@ OUTPUT(u-boot elf32-littlearm)
  .ARM.attributes
                 0x00000000000004d6       0x2d arch/arm/lib/eabi_compat.o
  .ARM.attributes
+<<<<<<< HEAD
                 0x0000000000000503       0x23 /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_udivsi3.o)
  .ARM.attributes
                 0x0000000000000526       0x23 /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_divsi3.o)
@@ -8885,6 +8934,17 @@ OUTPUT(u-boot elf32-littlearm)
                 0x000000000000056c       0x23 /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_ashldi3.o)
  .ARM.attributes
                 0x000000000000058f       0x23 /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_dvmd_lnx.o)
+=======
+                0x0000000000000503       0x23 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x0000000000000526       0x23 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x0000000000000549       0x23 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_lshrdi3.o)
+ .ARM.attributes
+                0x000000000000056c       0x23 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_ashldi3.o)
+ .ARM.attributes
+                0x000000000000058f       0x23 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_dvmd_lnx.o)
+>>>>>>> f38148f2f8278a374346051a0d14ae7981b33128
 
 .comment        0x0000000000000000       0x11
  .comment       0x0000000000000000       0x11 arch/arm/cpu/armv7/built-in.o
@@ -8976,6 +9036,7 @@ OUTPUT(u-boot elf32-littlearm)
  .note.GNU-stack
                 0x0000000000000000        0x0 arch/arm/lib/eabi_compat.o
  .note.GNU-stack
+<<<<<<< HEAD
                 0x0000000000000000        0x0 /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_udivsi3.o)
  .note.GNU-stack
                 0x0000000000000000        0x0 /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_divsi3.o)
@@ -8987,12 +9048,26 @@ OUTPUT(u-boot elf32-littlearm)
                 0x0000000000000000        0x0 /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_dvmd_lnx.o)
 
 .debug_line     0x0000000000000000    0x25b2a
+=======
+                0x0000000000000000        0x0 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_udivsi3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_divsi3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_lshrdi3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_ashldi3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_dvmd_lnx.o)
+
+.debug_line     0x0000000000000000    0x25afe
+>>>>>>> f38148f2f8278a374346051a0d14ae7981b33128
  .debug_line    0x0000000000000000       0x96 arch/arm/cpu/armv7/start.o
  .debug_line    0x0000000000000096      0xed3 arch/arm/cpu/armv7/built-in.o
  .debug_line    0x0000000000000f69      0xfbf arch/arm/imx-common/built-in.o
  .debug_line    0x0000000000001f28      0xe7b arch/arm/lib/built-in.o
  .debug_line    0x0000000000002da3      0x15b board/freescale/common/built-in.o
  .debug_line    0x0000000000002efe      0x4c4 board/freescale/mx6sabresd/built-in.o
+<<<<<<< HEAD
  .debug_line    0x00000000000033c2     0xc166 common/built-in.o
  .debug_line    0x000000000000f528      0x57a disk/built-in.o
  .debug_line    0x000000000000faa2     0x3fdb drivers/built-in.o
@@ -9057,6 +9132,72 @@ OUTPUT(u-boot elf32-littlearm)
  .debug_info    0x00000000000f45a7      0x14e /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_lshrdi3.o)
  .debug_info    0x00000000000f46f5      0x14e /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_ashldi3.o)
  .debug_info    0x00000000000f4843      0x14e /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_dvmd_lnx.o)
+=======
+ .debug_line    0x00000000000033c2     0xc15a common/built-in.o
+ .debug_line    0x000000000000f51c      0x57a disk/built-in.o
+ .debug_line    0x000000000000fa96     0x3fd7 drivers/built-in.o
+ .debug_line    0x0000000000013a6d      0x182 drivers/gpio/built-in.o
+ .debug_line    0x0000000000013bef      0x602 drivers/i2c/built-in.o
+ .debug_line    0x00000000000141f1      0xed4 drivers/mmc/built-in.o
+ .debug_line    0x00000000000150c5      0x6df drivers/mtd/built-in.o
+ .debug_line    0x00000000000157a4      0x8b9 drivers/mtd/spi/built-in.o
+ .debug_line    0x000000000001605d      0x537 drivers/net/built-in.o
+ .debug_line    0x0000000000016594      0x75a drivers/net/phy/built-in.o
+ .debug_line    0x0000000000016cee      0xf35 drivers/pci/built-in.o
+ .debug_line    0x0000000000017c23      0x390 drivers/power/built-in.o
+ .debug_line    0x0000000000017fb3      0x11d drivers/power/pmic/built-in.o
+ .debug_line    0x00000000000180d0      0x542 drivers/serial/built-in.o
+ .debug_line    0x0000000000018612      0x41a drivers/spi/built-in.o
+ .debug_line    0x0000000000018a2c      0x57c drivers/usb/eth/built-in.o
+ .debug_line    0x0000000000018fa8     0x2cd1 drivers/usb/gadget/built-in.o
+ .debug_line    0x000000000001bc79      0x967 drivers/usb/host/built-in.o
+ .debug_line    0x000000000001c5e0     0x2ad0 fs/built-in.o
+ .debug_line    0x000000000001f0b0     0x48b5 lib/built-in.o
+ .debug_line    0x0000000000023965     0x1be9 net/built-in.o
+ .debug_line    0x000000000002554e      0x122 test/dm/built-in.o
+ .debug_line    0x0000000000025670      0x120 arch/arm/lib/eabi_compat.o
+ .debug_line    0x0000000000025790       0xbb /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_udivsi3.o)
+ .debug_line    0x000000000002584b       0xc7 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_divsi3.o)
+ .debug_line    0x0000000000025912       0xa5 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_lshrdi3.o)
+ .debug_line    0x00000000000259b7       0xa5 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_ashldi3.o)
+ .debug_line    0x0000000000025a5c       0xa2 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_dvmd_lnx.o)
+
+.debug_info     0x0000000000000000    0xf4955
+ .debug_info    0x0000000000000000       0xde arch/arm/cpu/armv7/start.o
+ .debug_info    0x00000000000000de     0x8ac4 arch/arm/cpu/armv7/built-in.o
+ .debug_info    0x0000000000008ba2     0x7d05 arch/arm/imx-common/built-in.o
+ .debug_info    0x00000000000108a7     0x5998 arch/arm/lib/built-in.o
+ .debug_info    0x000000000001623f      0xa06 board/freescale/common/built-in.o
+ .debug_info    0x0000000000016c45     0x611d board/freescale/mx6sabresd/built-in.o
+ .debug_info    0x000000000001cd62    0x4fd56 common/built-in.o
+ .debug_info    0x000000000006cab8     0x20c7 disk/built-in.o
+ .debug_info    0x000000000006eb7f    0x1b7e3 drivers/built-in.o
+ .debug_info    0x000000000008a362      0x707 drivers/gpio/built-in.o
+ .debug_info    0x000000000008aa69     0x348a drivers/i2c/built-in.o
+ .debug_info    0x000000000008def3     0x5805 drivers/mmc/built-in.o
+ .debug_info    0x00000000000936f8     0x205b drivers/mtd/built-in.o
+ .debug_info    0x0000000000095753     0x3948 drivers/mtd/spi/built-in.o
+ .debug_info    0x000000000009909b     0x2f51 drivers/net/built-in.o
+ .debug_info    0x000000000009bfec     0x31bb drivers/net/phy/built-in.o
+ .debug_info    0x000000000009f1a7     0x6add drivers/pci/built-in.o
+ .debug_info    0x00000000000a5c84     0x1909 drivers/power/built-in.o
+ .debug_info    0x00000000000a758d      0x819 drivers/power/pmic/built-in.o
+ .debug_info    0x00000000000a7da6     0x1fe7 drivers/serial/built-in.o
+ .debug_info    0x00000000000a9d8d     0x1555 drivers/spi/built-in.o
+ .debug_info    0x00000000000ab2e2     0x2af4 drivers/usb/eth/built-in.o
+ .debug_info    0x00000000000addd6    0x12c02 drivers/usb/gadget/built-in.o
+ .debug_info    0x00000000000c09d8     0x45a7 drivers/usb/host/built-in.o
+ .debug_info    0x00000000000c4f7f    0x10483 fs/built-in.o
+ .debug_info    0x00000000000d5402    0x13571 lib/built-in.o
+ .debug_info    0x00000000000e8973     0xae82 net/built-in.o
+ .debug_info    0x00000000000f37f5      0x671 test/dm/built-in.o
+ .debug_info    0x00000000000f3e66      0x491 arch/arm/lib/eabi_compat.o
+ .debug_info    0x00000000000f42f7      0x146 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_udivsi3.o)
+ .debug_info    0x00000000000f443d      0x146 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_divsi3.o)
+ .debug_info    0x00000000000f4583      0x146 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_lshrdi3.o)
+ .debug_info    0x00000000000f46c9      0x146 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_ashldi3.o)
+ .debug_info    0x00000000000f480f      0x146 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_dvmd_lnx.o)
+>>>>>>> f38148f2f8278a374346051a0d14ae7981b33128
 
 .debug_abbrev   0x0000000000000000    0x275a3
  .debug_abbrev  0x0000000000000000       0x14 arch/arm/cpu/armv7/start.o
@@ -9088,11 +9229,19 @@ OUTPUT(u-boot elf32-littlearm)
  .debug_abbrev  0x00000000000253fe     0x1dc4 net/built-in.o
  .debug_abbrev  0x00000000000271c2      0x1e1 test/dm/built-in.o
  .debug_abbrev  0x00000000000273a3      0x19c arch/arm/lib/eabi_compat.o
+<<<<<<< HEAD
  .debug_abbrev  0x000000000002753f       0x14 /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_udivsi3.o)
  .debug_abbrev  0x0000000000027553       0x14 /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_divsi3.o)
  .debug_abbrev  0x0000000000027567       0x14 /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_lshrdi3.o)
  .debug_abbrev  0x000000000002757b       0x14 /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_ashldi3.o)
  .debug_abbrev  0x000000000002758f       0x14 /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_dvmd_lnx.o)
+=======
+ .debug_abbrev  0x000000000002753f       0x14 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_udivsi3.o)
+ .debug_abbrev  0x0000000000027553       0x14 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_divsi3.o)
+ .debug_abbrev  0x0000000000027567       0x14 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_lshrdi3.o)
+ .debug_abbrev  0x000000000002757b       0x14 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_ashldi3.o)
+ .debug_abbrev  0x000000000002758f       0x14 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_dvmd_lnx.o)
+>>>>>>> f38148f2f8278a374346051a0d14ae7981b33128
 
 .debug_aranges  0x0000000000000000     0x4f88
  .debug_aranges
@@ -9154,6 +9303,7 @@ OUTPUT(u-boot elf32-littlearm)
  .debug_aranges
                 0x0000000000004eb0       0x38 arch/arm/lib/eabi_compat.o
  .debug_aranges
+<<<<<<< HEAD
                 0x0000000000004ee8       0x20 /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_udivsi3.o)
  .debug_aranges
                 0x0000000000004f08       0x20 /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_divsi3.o)
@@ -9163,6 +9313,17 @@ OUTPUT(u-boot elf32-littlearm)
                 0x0000000000004f48       0x20 /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_ashldi3.o)
  .debug_aranges
                 0x0000000000004f68       0x20 /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_dvmd_lnx.o)
+=======
+                0x0000000000004ee8       0x20 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_udivsi3.o)
+ .debug_aranges
+                0x0000000000004f08       0x20 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_divsi3.o)
+ .debug_aranges
+                0x0000000000004f28       0x20 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_lshrdi3.o)
+ .debug_aranges
+                0x0000000000004f48       0x20 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_ashldi3.o)
+ .debug_aranges
+                0x0000000000004f68       0x20 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_dvmd_lnx.o)
+>>>>>>> f38148f2f8278a374346051a0d14ae7981b33128
 
 .debug_frame    0x0000000000000000     0xdcc0
  .debug_frame   0x0000000000000000      0x5ac arch/arm/cpu/armv7/built-in.o
@@ -9193,6 +9354,7 @@ OUTPUT(u-boot elf32-littlearm)
  .debug_frame   0x000000000000d054      0xb48 net/built-in.o
  .debug_frame   0x000000000000db9c       0x7c test/dm/built-in.o
  .debug_frame   0x000000000000dc18       0x68 arch/arm/lib/eabi_compat.o
+<<<<<<< HEAD
  .debug_frame   0x000000000000dc80       0x20 /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_udivsi3.o)
  .debug_frame   0x000000000000dca0       0x20 /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_divsi3.o)
 
@@ -9253,6 +9415,68 @@ OUTPUT(u-boot elf32-littlearm)
                                         0x59c (size before relaxing)
  .debug_str     0x00000000000248aa       0x60 arch/arm/lib/eabi_compat.o
                                         0x4dc (size before relaxing)
+=======
+ .debug_frame   0x000000000000dc80       0x20 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_udivsi3.o)
+ .debug_frame   0x000000000000dca0       0x20 /home/ati-openrex/fsl-community-bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/5.2.0/libgcc.a(_divsi3.o)
+
+.debug_str      0x0000000000000000    0x24906
+ .debug_str     0x0000000000000000     0x665b arch/arm/cpu/armv7/built-in.o
+                                       0x93ae (size before relaxing)
+ .debug_str     0x000000000000665b     0x1056 arch/arm/imx-common/built-in.o
+                                       0x9615 (size before relaxing)
+ .debug_str     0x00000000000076b1     0x1324 arch/arm/lib/built-in.o
+                                       0x4979 (size before relaxing)
+ .debug_str     0x00000000000089d5      0x46a board/freescale/common/built-in.o
+                                        0x912 (size before relaxing)
+ .debug_str     0x0000000000008e3f     0x8091 board/freescale/mx6sabresd/built-in.o
+                                       0x9568 (size before relaxing)
+ .debug_str     0x0000000000010ed0     0x6a61 common/built-in.o
+                                      0x2ee9b (size before relaxing)
+ .debug_str     0x0000000000017931      0x26b disk/built-in.o
+                                        0xff9 (size before relaxing)
+ .debug_str     0x0000000000017b9c     0x31c6 drivers/built-in.o
+                                       0xfb5e (size before relaxing)
+ .debug_str     0x000000000001ad62       0x8a drivers/gpio/built-in.o
+                                        0x556 (size before relaxing)
+ .debug_str     0x000000000001adec      0x267 drivers/i2c/built-in.o
+                                       0x188f (size before relaxing)
+ .debug_str     0x000000000001b053      0x548 drivers/mmc/built-in.o
+                                       0x2321 (size before relaxing)
+ .debug_str     0x000000000001b59b      0x467 drivers/mtd/built-in.o
+                                        0xfba (size before relaxing)
+ .debug_str     0x000000000001ba02      0x4ea drivers/mtd/spi/built-in.o
+                                       0x2312 (size before relaxing)
+ .debug_str     0x000000000001beec      0x74b drivers/net/built-in.o
+                                       0x11ad (size before relaxing)
+ .debug_str     0x000000000001c637      0x248 drivers/net/phy/built-in.o
+                                       0x180c (size before relaxing)
+ .debug_str     0x000000000001c87f      0xc67 drivers/pci/built-in.o
+                                       0x3127 (size before relaxing)
+ .debug_str     0x000000000001d4e6      0x11e drivers/power/built-in.o
+                                        0xda3 (size before relaxing)
+ .debug_str     0x000000000001d604       0x42 drivers/power/pmic/built-in.o
+                                        0x8da (size before relaxing)
+ .debug_str     0x000000000001d646      0x1f5 drivers/serial/built-in.o
+                                       0x1664 (size before relaxing)
+ .debug_str     0x000000000001d83b      0x15e drivers/spi/built-in.o
+                                        0xd10 (size before relaxing)
+ .debug_str     0x000000000001d999      0x355 drivers/usb/eth/built-in.o
+                                       0x15e6 (size before relaxing)
+ .debug_str     0x000000000001dcee     0x217e drivers/usb/gadget/built-in.o
+                                       0x7b24 (size before relaxing)
+ .debug_str     0x000000000001fe6c      0x595 drivers/usb/host/built-in.o
+                                       0x231d (size before relaxing)
+ .debug_str     0x0000000000020401     0x1aea fs/built-in.o
+                                       0x68f4 (size before relaxing)
+ .debug_str     0x0000000000021eeb     0x16de lib/built-in.o
+                                       0xb4a4 (size before relaxing)
+ .debug_str     0x00000000000235c9     0x1261 net/built-in.o
+                                       0x6f6f (size before relaxing)
+ .debug_str     0x000000000002482a       0x7c test/dm/built-in.o
+                                        0x598 (size before relaxing)
+ .debug_str     0x00000000000248a6       0x60 arch/arm/lib/eabi_compat.o
+                                        0x4d8 (size before relaxing)
+>>>>>>> f38148f2f8278a374346051a0d14ae7981b33128
 
 .debug_loc      0x0000000000000000    0x86e19
  .debug_loc     0x0000000000000000     0x1fec arch/arm/cpu/armv7/built-in.o

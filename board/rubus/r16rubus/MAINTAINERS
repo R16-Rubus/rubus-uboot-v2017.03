@@ -1,0 +1,8 @@
+R16RUBUS BOARD
+M:	Gal Attila <gattila1990@yahoo.com>
+S:	Maintained
+F:	board/rubus/r16rubus/
+F:	include/configs/r16rubus.h
+F:	configs/r16dlrubus_defconfig
+F:	configs/r16qrubus_defconfig
+F:	configs/r16rubus_spl_defconfig

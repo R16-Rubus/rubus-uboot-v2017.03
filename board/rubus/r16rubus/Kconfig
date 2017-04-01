@@ -1,0 +1,12 @@
+if TARGET_R16RUBUS
+
+config SYS_BOARD
+	default "r16rubus"
+
+config SYS_VENDOR
+	default "rubus"
+
+config SYS_CONFIG_NAME
+	default "r16rubus"
+
+endif

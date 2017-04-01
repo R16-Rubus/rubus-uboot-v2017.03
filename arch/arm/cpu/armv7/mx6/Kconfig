@@ -85,6 +85,12 @@ config TARGET_MX6SABRESD
 	select SUPPORT_SPL
 	select DM
 	select DM_THERMAL
+	
+config TARGET_R16RUBUS
+	bool "r16rubus"
+	select SUPPORT_SPL
+	select DM
+	select DM_THERMAL
 
 config TARGET_MX6SLEVK
 	bool "mx6slevk"
@@ -166,6 +172,7 @@ source "board/freescale/mx6qsabreauto/Kconfig"
 source "board/freescale/mx6sabresd/Kconfig"
 source "board/freescale/mx6slevk/Kconfig"
 source "board/freescale/mx6sxsabresd/Kconfig"
+source "board/rubus/r16rubus/Kconfig"
 source "board/freescale/mx6ul_14x14_evk/Kconfig"
 source "board/gateworks/gw_ventana/Kconfig"
 source "board/kosagi/novena/Kconfig"
